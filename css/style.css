@@ -67,8 +67,13 @@ img{
   background-size: cover;
 }
 
+.title{
+  margin-top: 5%;
+}
+
 .title h2{
   font-size: 3.5em;
+  margin-bottom: 1%;
   color: #fff;
 }
 
@@ -77,4 +82,28 @@ img{
   color: #fff;
   margin-right: 27%;
   margin-left: 27%;
+}
+
+.btn-android, .btn-iphone{
+  font-size: 1.0em;
+  text-align: center;
+  cursor: pointer;
+  padding: 1%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  color: #fff;
+  background-color: transparent;
+}
+
+.btn-border{
+  border-radius: 25%;
+  border: 1px solid;
+  border-color: #fff;
+}
+
+.btn-android:hover, .btn-iphone:hover{
+  color: #8585c1;
+  background-color: #fff;
 }
