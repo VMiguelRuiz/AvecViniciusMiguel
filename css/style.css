@@ -106,6 +106,23 @@ img{
   background-color: #fff;
 }
 
+/*RESUMO: Agendamento Online*/
+.resumo{
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 2%;
+}
+.resumo h2{
+  font-size: 2em;
+  color: #8585c1;
+}
+.resumo p{
+  font-size: 1.2em;
+  margin-top: 1%;
+  color: #130400;
+}
+
 /* Servicos */
 .servicos{
   width: 100%;
@@ -173,6 +190,7 @@ img{
 .informacoes p{
   margin-bottom: 0.5%;
 }
+
 /**************MOBILE FIRST***********/
 /*SMARTPHONES*/
 @media screen and (min-width: 480px){
