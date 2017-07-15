@@ -26,13 +26,33 @@ img{
 .header{
   width: 100%;
   float: left;
-  padding: 3% 4%;
+  padding: 0.5% 1.5%;
 }
 
 .logo{
-  width:120px;
+  width:160px;
   height: 60px;
   float: left;
-  background: url(../img/logo.png) center center/ 120px no-repeat;
+  background: url(../img/logo.png) center center/ 160px no-repeat;
   font-size: 0;
+}
+
+/* Menu */
+.menu-inner{
+  text-align: right;
+  margin-right: 2%;
+  padding: 1.5% 0;
+}
+
+.menu-inner > li{
+  display: inline-block;
+  padding: 0 1.5%;
+}
+
+.menu-inner > li > a{
+    color: #8585c1;
+}
+
+.menu-inner > li > a:hover{
+  color: #551A8B;
 }
