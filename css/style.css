@@ -9,3 +9,15 @@
   box-sizing: border-box;
   font-family: 'Open Sans Condensed', sans-serif;
 }
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+}
