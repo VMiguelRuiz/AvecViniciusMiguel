@@ -21,11 +21,15 @@ ul{
 img{
   max-width: 100%;
 }
+/*******CONTAINER********/
+.container{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
 
 /* Header */
 .header{
-  width: 100%;
-  float: left;
   padding: 0.5% 1.5%;
 }
 .logo{
@@ -56,9 +60,6 @@ img{
 
 /* Banner */
 .banner{
-  width: 100%;
-  float: left;
-  text-align: center;
   padding: 3% 4%;
   background: url(../img/banner.jpg) no-repeat;
   background-size: cover;
@@ -148,6 +149,28 @@ img{
   background-color: #8585c1;
 }
 .btn-border-saiba{
-  padding: 5px 15px;
+  padding: 5px 20px;
   border-radius: 5px;
+}
+
+/*RODAPE*/
+.rodape{
+    padding: 2% 3%;
+    background-color: #8585c1;
+}
+.social-icons a{
+  font-size: 1.1em;
+  color: #fff;
+  margin-right: 2%;
+}
+.social-icons a:last-child{
+  margin-right: 0;
+}
+.informacoes, .informacoes a{
+  font-size: 1.1em;
+  text-align: center;
+  color: #fff;
+}
+.informacoes p{
+  margin-bottom: 0.5%;
 }
