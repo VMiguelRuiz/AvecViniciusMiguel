@@ -41,7 +41,7 @@ img{
 .menu-inner{
   text-align: right;
   margin-right: 2%;
-  padding: 1.5% 0;
+  padding: 1% 0;
 }
 
 .menu-inner > li{
@@ -55,4 +55,15 @@ img{
 
 .menu-inner > li > a:hover{
   color: #551A8B;
+}
+
+/* Banner */
+
+.banner{
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 3% 4%;
+  background: url(../img/img1.jpg) no-repeat fixed;
+  background-size: cover;
 }
