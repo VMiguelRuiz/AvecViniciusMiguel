@@ -21,3 +21,18 @@ ul{
 img{
   max-width: 100%;
 }
+
+/* Header */
+.cabecalho{
+  width: 100%;
+  float: left;
+  padding: 3% 4%;
+}
+
+.logo{
+  width:120px;
+  height: 60px;
+  float: left;
+  background: url(../img/logo.png) center center/ 120px no-repeat;
+  font-size: 0;
+}
