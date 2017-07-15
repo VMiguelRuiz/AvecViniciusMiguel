@@ -58,7 +58,6 @@ img{
 }
 
 /* Banner */
-
 .banner{
   width: 100%;
   float: left;
@@ -66,4 +65,16 @@ img{
   padding: 3% 4%;
   background: url(../img/img1.jpg) no-repeat fixed;
   background-size: cover;
+}
+
+.title h2{
+  font-size: 3.5em;
+  color: #fff;
+}
+
+.title h3{
+  font-size: 2.5em;
+  color: #fff;
+  margin-right: 27%;
+  margin-left: 27%;
 }
