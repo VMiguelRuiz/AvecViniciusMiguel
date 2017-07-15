@@ -10,6 +10,10 @@
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+body{
+  background-color: #fff;
+}
+
 a{
   text-decoration: none;
 }
@@ -39,6 +43,7 @@ img{
 
 /* Menu */
 .menu-inner{
+  font-size: 1.2em;
   text-align: right;
   margin-right: 2%;
   padding: 1% 0;
@@ -63,10 +68,11 @@ img{
   float: left;
   text-align: center;
   padding: 3% 4%;
-  background: url(../img/img1.jpg) no-repeat fixed;
+  background: url(../img/banner.jpg) no-repeat;
   background-size: cover;
 }
 
+/* Title */
 .title{
   margin-top: 5%;
 }
@@ -80,30 +86,65 @@ img{
 .title h3{
   font-size: 2.5em;
   color: #fff;
-  margin-right: 27%;
-  margin-left: 27%;
+  /*margin-right: 27%;*/
+  /*margin-left: 27%;*/
 }
 
+/* Buttons */
 .btn-android, .btn-iphone{
-  font-size: 1.0em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
   text-align: center;
   cursor: pointer;
-  padding: 1%;
   margin-top: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
   margin-bottom: 5%;
   color: #fff;
   background-color: transparent;
 }
 
+/* Borda dos Botoes */
 .btn-border{
-  border-radius: 25%;
-  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid;
   border-color: #fff;
 }
 
+/* Animacao dos botoes */
 .btn-android:hover, .btn-iphone:hover{
   color: #8585c1;
   background-color: #fff;
+}
+
+/* Servicos */
+.servicos{
+  width: 100%;
+  float: left;
+  padding: 3% 4%;
+}
+
+/* Servico */
+.servico{
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+/* Inner */
+/* Estruturando Inner do servico */
+.inner{
+  padding: 7%;
+}
+
+.inner h4{
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #8585c1;
+}
+
+.inner p{
+    margin-top: 2%;
+    color: #130400;
+    line-height: 1.5em;
 }
