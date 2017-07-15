@@ -9,19 +9,15 @@
   box-sizing: border-box;
   font-family: 'Open Sans Condensed', sans-serif;
 }
-
 body{
   background-color: #fff;
 }
-
 a{
   text-decoration: none;
 }
-
 ul{
   list-style: none;
 }
-
 img{
   max-width: 100%;
 }
@@ -32,7 +28,6 @@ img{
   float: left;
   padding: 0.5% 1.5%;
 }
-
 .logo{
   width:160px;
   height: 60px;
@@ -48,16 +43,13 @@ img{
   margin-right: 2%;
   padding: 1% 0;
 }
-
 .menu-inner > li{
   display: inline-block;
   padding: 0 1.5%;
 }
-
 .menu-inner > li > a{
     color: #8585c1;
 }
-
 .menu-inner > li > a:hover{
   color: #551A8B;
 }
@@ -76,13 +68,11 @@ img{
 .title{
   margin-top: 5%;
 }
-
 .title h2{
   font-size: 3.5em;
   margin-bottom: 1%;
   color: #fff;
 }
-
 .title h3{
   font-size: 2.5em;
   color: #fff;
@@ -90,7 +80,7 @@ img{
   /*margin-left: 27%;*/
 }
 
-/* Buttons */
+/* Buttons do Title*/
 .btn-android, .btn-iphone{
   font-family: 'Open Sans', sans-serif;
   font-size: 0.8em;
@@ -105,14 +95,13 @@ img{
 }
 
 /* Borda dos Botoes */
-.btn-border{
+.btn-border-title{
   padding: 10px 20px;
   border-radius: 20px;
   border: 2px solid;
   border-color: #fff;
 }
-
-/* Animacao dos botoes */
+/* Animacao dos botoes do Title */
 .btn-android:hover, .btn-iphone:hover{
   color: #8585c1;
   background-color: #fff;
@@ -124,7 +113,6 @@ img{
   float: left;
   padding: 3% 4%;
 }
-
 /* Servico */
 .servico{
   width: 100%;
@@ -136,15 +124,30 @@ img{
 .inner{
   padding: 7%;
 }
-
 .inner h4{
   font-size: 1.1em;
   font-weight: 600;
   color: #8585c1;
 }
-
 .inner p{
     margin-top: 2%;
     color: #130400;
     line-height: 1.5em;
+}
+
+/* Buttons do servico */
+.button-servico{
+  margin-top: 2%;
+}
+.btn-saiba-mais{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 0.8em;
+  text-align: center;
+  cursor: pointer;
+  background-color: #8585c1;
+}
+.btn-border-saiba{
+  padding: 5px 15px;
+  border-radius: 5px;
 }
