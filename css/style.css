@@ -83,23 +83,6 @@ img{
 .menu li a:hover, .btn-close:hover{
   color: #551A8B;
 }
-/* Menu
-.menu-inner{
-  font-size: 1em;
-  text-align: right;
-  margin-right: 2%;
-  padding: 3% 0;
-}
-.menu-inner > li{
-  display: inline-block;
-  padding: 0 1.5%;
-}
-.menu-inner > li > a{
-    color: #8585c1;
-}
-.menu-inner > li > a:hover{
-  color: #551A8B;
-}*/
 
 /* Banner */
 .banner{
@@ -214,6 +197,7 @@ img{
 
 /*RODAPE*/
 .rodape{
+    width: 100%;
     padding: 2% 3%;
     background-color: #8585c1;
 }
@@ -227,34 +211,50 @@ img{
   margin-right: 0;
 }
 /*Informações de contato*/
-.informacoes, .informacoes a{
+.informacoes p, .informacoes a{
   font-size: 1.1em;
   text-align: center;
   color: #fff;
+    margin-bottom: 1%;
 }
-.informacoes p{
-  margin-bottom: 0.5%;
-}
+
 
 /**************MOBILE FIRST***********/
 /*SMARTPHONES*/
 @media screen and (min-width: 480px){
-  .menu-inner{
 
-  }
 }
 
 /*TABLETS*/
 @media screen and (min-width: 640px){
-  .menu-inner{
 
-  }
 }
 
 /*TABLETS*/
 @media screen and (min-width: 768px){
-  .servico{
-    width: 32%;
+  .btn-menu{
+    display:none;
+  }
+  .btn-close{
+    display: none;
+  }
+  .menu{
+    width: auto;
+    height: 56px;
+    line-height: 56px;
+    float: right;
+    display: block;
+    position: static;
+  }
+  .menu li{
+    padding: 0;
+    float: left;
+  }
+  .menu li a{
+    font-size: 1em;
+    padding: 15px;
+  }
+  .servico{width: 32%;
     float: left;
     margin-right: 2%;
   }
@@ -268,6 +268,7 @@ img{
     font-size: 2.7em;
   }
 }
+
 /*Small Desktop*/
 @media screen and (min-width: 1024px){
   .menu-inner{

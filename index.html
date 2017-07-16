@@ -33,6 +33,16 @@
                   </ul>
               </nav>
           </header>
+          <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+          <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>﻿
+          <script>
+            $(".btn-menu").click(function(){
+                $(".menu").show();
+            });
+            $(".btn-close").click(function(){
+              $(".menu").hide();
+            });
+          </script>
           <!--BANNER-->
           <div class="banner container">
             <!--Titulo principal-->
@@ -110,14 +120,4 @@
             </div>
         </footer>
     </body>
-    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
-    <script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>﻿
-    <script>
-      $(".btn-menu").click(function(){
-          $(".menu").show();
-      });
-      $(".btn-close").click(function(){
-        $(".menu").hide();
-      })
-    </script>
 </html>
