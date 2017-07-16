@@ -7,7 +7,7 @@
   outline: none;
   font-weight: 300;
   box-sizing: border-box;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body{
   background-color: #fff;
@@ -40,12 +40,55 @@ img{
   font-size: 0;
 }
 
-/* Menu */
+/*Botao Menu*/
+.btn-menu{
+  width: 56px;
+  height: 56px;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+  color: #8585c1;
+  background-color: transparent;
+}
+
+/*Menu*/
+.menu{
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color:rgba(255,255,255,0.93);
+  top: 0;
+  left: 0;
+}
+.btn-close{
+  font-size: 1.3em;
+  color: #8585c1;
+  float: right;
+  cursor: pointer;
+  margin: 2% 3% 0 0;
+}
+.menu ul{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.menu li{
+  padding: 1.5%;
+}
+.menu li a{
+  font-size: 1.5em;
+  color: #8585c1;
+}
+.menu li a:hover, .btn-close:hover{
+  color: #551A8B;
+}
+/* Menu
 .menu-inner{
   font-size: 1em;
   text-align: right;
   margin-right: 2%;
-  padding: 1% 0;
+  padding: 3% 0;
 }
 .menu-inner > li{
   display: inline-block;
@@ -56,7 +99,7 @@ img{
 }
 .menu-inner > li > a:hover{
   color: #551A8B;
-}
+}*/
 
 /* Banner */
 .banner{
@@ -65,22 +108,24 @@ img{
   background-size: cover;
 }
 
-/* Title */
+/* Title: Texto dentro do Banner */
 .title{
   margin-top: 5%;
 }
 .title h2{
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2.5em;
   margin-bottom: 1%;
   color: #fff;
 }
 .title h3{
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.5em;
   color: #fff;
 }
 
-/* Buttons do Title*/
-.btn-android, .btn-iphone{
+/* Botoes de Sistemas Operacionais (Android e Iphone)*/
+.btn-sistema-op{
   font-family: 'Open Sans', sans-serif;
   font-size: 0.8em;
   text-align: center;
@@ -92,7 +137,6 @@ img{
   color: #fff;
   background-color: transparent;
 }
-
 /* Borda dos Botoes */
 .btn-border{
   padding: 10px 20px;
@@ -100,8 +144,8 @@ img{
   border: 2px solid;
   border-color: #fff;
 }
-/* Animacao dos botoes do Title */
-.btn-android:hover, .btn-iphone:hover{
+/* Animacao dos botoes: Android e Iphone */
+.btn-sistema-op:hover{
   color: #8585c1;
   background-color: #fff;
 }
@@ -118,9 +162,8 @@ img{
   color: #8585c1;
 }
 .resumo p{
-  font-size: 1.2em;
   margin-top: 1%;
-  color: #130400;
+  color: #595959;
 }
 
 /* Servicos */
@@ -139,7 +182,7 @@ img{
   margin-bottom: 3%;
 }
 
-/* Inner -> Servico */
+/* Inner: Conteudo do Servico */
 .inner{
   padding: 4% 4% 4% 4%;
 }
@@ -150,11 +193,11 @@ img{
 }
 .inner p{
     margin-top: 2%;
-    color: #130400;
+    color: #595959;
     line-height: 1.5em;
 }
 
-/* Buttons do servico */
+/* Botoes de saiba mais */
 .button-servico{
   margin-top: 3%;
 }
@@ -174,6 +217,7 @@ img{
     padding: 2% 3%;
     background-color: #8585c1;
 }
+/*Icones de Redes Sociais*/
 .social-icons a{
   font-size: 1.1em;
   color: #fff;
@@ -182,6 +226,7 @@ img{
 .social-icons a:last-child{
   margin-right: 0;
 }
+/*Informações de contato*/
 .informacoes, .informacoes a{
   font-size: 1.1em;
   text-align: center;
@@ -195,18 +240,18 @@ img{
 /*SMARTPHONES*/
 @media screen and (min-width: 480px){
   .menu-inner{
-      padding: 4% 0;
+
   }
 }
 
 /*TABLETS*/
 @media screen and (min-width: 640px){
   .menu-inner{
-      padding: 3% 0;
+
   }
 }
 
-/*TABLETS E DESKTOPS*/
+/*TABLETS*/
 @media screen and (min-width: 768px){
   .servico{
     width: 32%;
@@ -223,18 +268,18 @@ img{
     font-size: 2.7em;
   }
 }
-
+/*Small Desktop*/
 @media screen and (min-width: 1024px){
   .menu-inner{
-      padding: 2% 0;
+
   }
   .servico{
     width: 32%; float: left;
   }
 }
-
+/*Desktops*/
 @media screen and (min-width: 1366px){
   .menu-inner{
-      padding: 1% 0;
+
   }
 }
