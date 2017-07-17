@@ -220,16 +220,6 @@ img{
 
 
 /**************MOBILE FIRST***********/
-/*SMARTPHONES*/
-@media screen and (min-width: 480px){
-
-}
-
-/*TABLETS*/
-@media screen and (min-width: 640px){
-
-}
-
 /*TABLETS*/
 @media screen and (min-width: 768px){
   .btn-menu{
