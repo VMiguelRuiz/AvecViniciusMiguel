@@ -220,7 +220,6 @@ img{
 
 
 /**************MOBILE FIRST***********/
-/*TABLETS*/
 @media screen and (min-width: 768px){
   .btn-menu{
     display:none;
@@ -244,7 +243,8 @@ img{
     font-size: 1em;
     padding: 15px;
   }
-  .servico{width: 32%;
+  .servico{
+    width: 32%;
     float: left;
     margin-right: 2%;
   }
@@ -259,7 +259,6 @@ img{
   }
 }
 
-/*Small Desktop*/
 @media screen and (min-width: 1024px){
   .menu-inner{
 
